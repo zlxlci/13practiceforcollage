@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 40px;
+}
+
+.red__square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.blue__rectangle {
+    width: 150px;
+    height: 80px;
+    background-color: blue;
+}
+
+.cyan__circle {
+    width: 100px;
+    height: 100px;
+    background-color: darkcyan;
+    border-radius: 50px;
+}
+
+.pink__parallelogram {
+    width: 150px;
+    height: 80px;
+    background-color: pink;
+    transform: skewX(-20deg);
+}
+
+.yellow__triangle {
+    width: 0px;
+    height: 0px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid yellow;
+}
+
+.animated__square {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 0;
+    transition: all 0.4s ease;
+}
+
+.animated__square:hover {
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 50px;
+}

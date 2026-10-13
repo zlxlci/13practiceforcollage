@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    border: 1px solid grey;
+    width: 1000px;
+    border-collapse: collapse;
+}
+tr,
+th {
+    border: 1px solid grey;
+}
+
+ul {
+    text-align: left;
+    list-style-position: inside;
+    padding-left: 20px;
+    margin-top: 10px;  
+}
+
+img {
+    height: 150px;
+    display: block;
+    margin: 10px auto;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
